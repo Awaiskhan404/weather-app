@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>gps-location-symbol</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="revised-design" transform="translate(-271.000000, -13.000000)" fill="#FFFFFF">
+            <g id="Group">
+                <g id="gps-location-symbol" transform="translate(271.000000, 13.000000)">
+                    <path d="M16.2818182,8.18181818 C15.8727273,4.74545455 13.1727273,2.04545455 9.81818182,1.71818182 L9.81818182,0 L8.18181818,0 L8.18181818,1.71818182 C4.74545455,2.04545455 2.04545455,4.74545455 1.71818182,8.18181818 L0,8.18181818 L0,9.81818182 L1.71818182,9.81818182 C2.12727273,13.2545455 4.82727273,15.9545455 8.18181818,16.2818182 L8.18181818,18 L9.81818182,18 L9.81818182,16.2818182 C13.2545455,15.8727273 15.9545455,13.1727273 16.2818182,9.81818182 L18,9.81818182 L18,8.18181818 L16.2818182,8.18181818 Z M9,14.8695652 C5.72981366,14.8695652 3.13043478,12.2701863 3.13043478,9 C3.13043478,5.72981366 5.72981366,3.13043478 9,3.13043478 C12.2701863,3.13043478 14.8695652,5.72981366 14.8695652,9 C14.8695652,12.2701863 12.2701863,14.8695652 9,14.8695652 Z" id="Shape" fill-rule="nonzero"></path>
+                    <circle id="Oval-3" cx="9" cy="9" r="1.95652174"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

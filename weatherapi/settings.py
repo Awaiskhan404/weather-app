@@ -5,6 +5,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'u!vu^$)_=pcdps**1n$vj8*v9+ia#q*%+krae%ttek3+9_fd*1'
 
+BASE_URL = "http://127.0.0.1:8000"
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -42,7 +44,7 @@ ROOT_URLCONF = 'weatherapi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

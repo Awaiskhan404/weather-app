@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>clear sky</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-32" transform="translate(-18.000000, -4763.000000)" fill="#FFFFFF">
+            <g id="clear-sky" transform="translate(18.000000, 4763.000000)">
+                <path d="M40,25 L40,22 L47,22 L47,25 L40,25 Z M34.107,10.772 L39.056,5.822 L41.178,7.944 L36.228,12.893 L34.107,10.772 Z M23.5,37 C16.0441559,37 10,30.9558441 10,23.5 C10,16.0441559 16.0441559,10 23.5,10 C30.9558441,10 37,16.0441559 37,23.5 C37,30.9558441 30.9558441,37 23.5,37 Z M23.5,13 C17.7010101,13 13,17.7010101 13,23.5 C13,29.2989899 17.7010101,34 23.5,34 C29.2989899,34 34,29.2989899 34,23.5 C34,17.7010101 29.2989899,13 23.5,13 Z M22,0 L25,0 L25,7 L22,7 L22,0 Z M5.822,7.944 L7.944,5.822 L12.893,10.772 L10.772,12.893 L5.822,7.944 Z M7,25 L0,25 L0,22 L7,22 L7,25 Z M12.893,36.228 L7.944,41.178 L5.822,39.056 L10.772,34.107 L12.893,36.228 Z M25,47 L22,47 L22,40 L25,40 L25,47 Z M41.178,39.056 L39.056,41.178 L34.107,36.228 L36.228,34.107 L41.178,39.056 Z" id="sun"></path>
+            </g>
+        </g>
+    </g>
+</svg>

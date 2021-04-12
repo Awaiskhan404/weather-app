@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="139px" viewBox="0 0 152 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>sand /dust</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-36" transform="translate(-24.000000, -3775.000000)" fill="#FFFFFF">
+            <g id="sand-/dust" transform="translate(24.000000, 3775.000000)">
+                <circle id="Oval-4" cx="121.5" cy="31.5" r="5.5"></circle>
+                <circle id="Oval-4" cx="144" cy="64" r="8"></circle>
+                <circle id="Oval-4" cx="114" cy="85" r="5"></circle>
+                <circle id="Oval-4" cx="46" cy="47" r="7"></circle>
+                <circle id="Oval-4" cx="86" cy="7" r="7"></circle>
+                <path d="M86.7142857,100 L22.4285714,100 C18.88,100 16,102.912 16,106.5 C16,110.088 18.88,113 22.4285714,113 L86.7142857,113 C90.2628571,113 93.1428571,115.925 93.1428571,119.5 C93.1428571,123.075 90.2628571,126 86.7142857,126 C83.1657143,126 80.2857143,128.912 80.2857143,132.5 C80.2857143,136.088 83.1657143,139 86.7142857,139 C97.3471429,139 106,130.251 106,119.5 C106,108.749 97.3471429,100 86.7142857,100 Z" id="Shape" fill-rule="nonzero"></path>
+                <path d="M83.6875,51 C80.134,51 77.25,53.912 77.25,57.5 C77.25,61.088 80.134,64 83.6875,64 C87.241,64 90.125,66.912 90.125,70.5 C90.125,74.088 87.241,77 83.6875,77 L6.4375,77 C2.884,77 0,79.912 0,83.5 C0,87.088 2.884,90 6.4375,90 L83.6875,90 C94.335125,90 103,81.251 103,70.5 C103,59.749 94.335125,51 83.6875,51 Z" id="Shape" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

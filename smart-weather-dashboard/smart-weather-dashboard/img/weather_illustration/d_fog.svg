@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="874px" height="2197px" viewBox="0 0 874 2197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>fog</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="97.3261511%" y1="97.0418398%" x2="13.4566583%" y2="4.25447427%" id="linearGradient-1">
+            <stop stop-color="#ADCFFF" offset="0%"></stop>
+            <stop stop-color="#A8CADD" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="874" height="2197"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fog">
+            <g id="Group-30">
+                <g id="Group-24-Copy-4">
+                    <g id="night-rainy-copy-3">
+                        <g id="Group-5-Copy-3">
+                            <g id="with-content-copy-7">
+                                <g id="Shape">
+                                    <g id="fluffy-cloud-silhouette">
+                                        <mask id="mask-3" fill="white">
+                                            <use xlink:href="#path-2"></use>
+                                        </mask>
+                                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                                        <g id="Group-28" mask="url(#mask-3)">
+                                            <g transform="translate(-374.000000, 269.000000)">
+                                                <path d="M51,101.5 C23.1096201,101.5 0.5,78.8903799 0.5,51 C0.5,23.1096201 23.1096201,0.5 51,0.5 L677.086303,0.5 C704.976683,0.5 727.586303,23.1096201 727.586303,51 C727.586303,78.8903799 704.976683,101.5 677.086303,101.5 C582.761131,101.5 512.017251,101.5 464.854665,101.5 C445.545635,101.5 424.209597,101.5 400.84655,101.5 C342.237426,101.5 225.621909,101.5 51,101.5 Z" id="Path-5" stroke="none" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5"></path>
+                                                <path d="M98.9899951,102.545273 L725.076298,102.545273" id="Path-5" stroke="#FFFFFF" stroke-width="151" fill="none" opacity="0.300000012" stroke-linecap="round"></path>
+                                                <path d="M369,263 L995.086303,263" id="Path-5" stroke="#FFFFFF" stroke-width="111" fill="none" stroke-linecap="round"></path>
+                                                <path d="M379,356 L1071.95263,356" id="Path-5" stroke="#FFFFFF" stroke-width="150" fill="none" opacity="0.200000003" stroke-linecap="round"></path>
+                                                <path d="M225,508 L851.086303,508" id="Path-5-Copy" stroke="#FFFFFF" stroke-width="91" fill="none" opacity="0.699999988" stroke-linecap="round"></path>
+                                                <path d="M248,578 L874.086303,578" id="Path-5-Copy-2" stroke="#FFFFFF" stroke-width="151" fill="none" opacity="0.100000001" stroke-linecap="round"></path>
+                                                <g id="Group-29" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(873.000000, 830.000000)" stroke-linecap="round">
+                                                    <path d="M0,73.6964286 L187.74094,73.6964286" id="Path-5-Copy-3" stroke="#FFFFFF" stroke-width="45.3" opacity="0.300000012"></path>
+                                                    <path d="M131,143.696429 L318.74094,143.696429" id="Path-5-Copy-3" stroke="#FFFFFF" stroke-width="45.3" opacity="0.699999988"></path>
+                                                    <path d="M82.9850746,0.303571429 L270.726015,0.303571429" id="Path-5-Copy-3" stroke="#FFFFFF" stroke-width="45.3" opacity="0.400000006"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
