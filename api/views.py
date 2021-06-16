@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from .GetCurrentState import GetCurrentState
-
+import requests
 
 def index(request):
      city='lahore'
@@ -9,7 +9,9 @@ def index(request):
      ip='111.119.187.1'
      CurrentState=GetCurrentState(ip=ip)
      print(CurrentState)
-     return render(request,'api/index.html')
+     return render(request,'api/index.html',{
+          'state':CurrentState,
+     })
 def GetCurrentStateByCity(request,city):
      appid="a2fe069ff0dc1dbc0d9bdf7a73d7ace5"
      protocol="https://" 
