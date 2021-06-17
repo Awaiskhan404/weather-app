@@ -8,8 +8,11 @@ def index(request):
      ip=request.META.get("REMOTE_ADDR")
      ip='111.119.187.1'
      CurrentState=GetCurrentState(ip=ip)
-     print(CurrentState)
+     main=CurrentState["main"]
+     tempreture=round(main["temp"]-270)
+     print(tempreture)
      return render(request,'api/index.html',{
+          'tempreture':tempreture,
           'state':CurrentState,
      })
 def GetCurrentStateByCity(request,city):
