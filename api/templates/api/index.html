@@ -8,7 +8,7 @@
 	<link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
 	<link href="{% static 'css/datepicker3.css' %}" rel="stylesheet">
 	<link href="{% static 'css/styles.css' %}" rel="stylesheet">
-	
+
 	<!--Custom Font-->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPDMiP4ZTvagTZ5exJs-Z2UIjNLRmCmd0&libraries=places"></script>
@@ -27,7 +27,7 @@
 					<span class="icon-bar"></span></button>
 				<a class="navbar-brand" href="#"><span>Weather</span>Station</a>
 				<div style="width:93%;">
-				<marquee style="font-size: 30px;font-weight: 600;color: #8ebf42;font-family: sans-serif;">Tempreture is {{tempreture}}ºC, Cloudy, Rain in 2 hours. Wear rainy dresses.</marquee>
+				<marquee style="font-size: 30px;font-weight: 600;color: #8ebf42;font-family: sans-serif;">{{headline}}</marquee>
 				</div>
 			</div>
 		</div><!-- /.container-fluid -->
@@ -298,7 +298,7 @@
 			<li><a href="/generate_pdf"><em class="fa fa-file-pdf-o">&nbsp;</em> Get Pdf Report</a></li>
 		</ul>
 	</div><!--/.sidebar-->
-		
+
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<div class="row">
 			<ol class="breadcrumb">
@@ -308,13 +308,13 @@
 				<li class="active">Dashboard</li>
 			</ol>
 		</div><!--/.row-->
-		
+
 		<div class="row">
 			<div class="col-lg-12">
 				<h1 class="page-header">Dashboard</h1>
 			</div>
 		</div><!--/.row-->
-		
+
 		<div class="panel panel-container">
 			<div class="row">
 				<div class="col-xs-6 col-md-3 col-lg-3 no-padding">
@@ -367,7 +367,7 @@
 				</div>
 			</div>
 		</div><!--/.row-->
-		
+
 		<div class="row">
 			<div class="col-xs-6 col-md-3">
 				<div class="panel panel-default">
@@ -404,11 +404,10 @@
 		</div><!--/.row-->
 		<div id="map"></div>
 		<ul class="geo-data">
-    <li>Full Address: <span id="location"></span></li>
-    <li>Postal Code: <span id="postal_code"></span></li>
-    <li>Country: <span id="country"></span></li>
-    <li>Latitude: <span id="lat"></span></li>
-    <li>Longitude: <span id="lon"></span></li>
+    <li>City: <span id="location">{{state.name}}</span></li>
+    <li>Country: <span id="country">{{state.sys.country}}</span></li>
+    <li>Latitude: <span id="lat">{{state.coord.lon}}</span></li>
+    <li>Longitude: <span id="lon">{{state.coord.lat}}</span></li>
 </ul>
 		<div class="row">
 			<!--/.col-->
@@ -473,7 +472,7 @@
 			</div>
 		</div><!--/.row-->
 	</div>	<!--/.main-->
-	
+
 	<script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
 	<script src="{% static 'js/bootstrap.min.js' %}"></script>
 	<script src="{% static 'js/chart.min.js' %}"></script>
