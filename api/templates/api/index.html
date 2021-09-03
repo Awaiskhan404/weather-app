@@ -295,11 +295,11 @@
 		</form>
 		<ul class="nav menu">
 			<li class="active"><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
-			<li><a href="/generate_pdf"><em class="fa fa-file-pdf-o">&nbsp;</em> Get Pdf Report</a></li>
+			<li><a id="btnPrint" href="#" onclick="printPdf()"><em class="fa fa-file-pdf-o">&nbsp;</em> Get Pdf Report</a></li>
 		</ul>
 	</div><!--/.sidebar-->
 
-	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+	<div id="dvContainer" class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#">
@@ -372,32 +372,32 @@
 			<div class="col-xs-6 col-md-3">
 				<div class="panel panel-default">
 					<div class="panel-body easypiechart-panel">
-						<h4>New Orders</h4>
-						<div class="easypiechart" id="easypiechart-blue" data-percent="92" ><span class="percent">92%</span></div>
+						<h4>Current</h4>
+						<div class="easypiechart" id="easypiechart-blue" data-percent="{{tempreture}}" ><span class="percent">{{tempreture}}°</span></div>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-6 col-md-3">
 				<div class="panel panel-default">
 					<div class="panel-body easypiechart-panel">
-						<h4>Comments</h4>
-						<div class="easypiechart" id="easypiechart-orange" data-percent="65" ><span class="percent">65%</span></div>
+						<h4>Noon</h4>
+						<div class="easypiechart" id="easypiechart-orange" data-percent="{{noontemp}}" ><span class="percent">{{noontemp}}°</span></div>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-6 col-md-3">
 				<div class="panel panel-default">
 					<div class="panel-body easypiechart-panel">
-						<h4>New Users</h4>
-						<div class="easypiechart" id="easypiechart-teal" data-percent="56" ><span class="percent">56%</span></div>
+						<h4>Evening</h4>
+						<div class="easypiechart" id="easypiechart-teal" data-percent="{{eventemp}}" ><span class="percent">{{eventemp}}°</span></div>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-6 col-md-3">
 				<div class="panel panel-default">
 					<div class="panel-body easypiechart-panel">
-						<h4>Visitors</h4>
-						<div class="easypiechart" id="easypiechart-red" data-percent="27" ><span class="percent">27%</span></div>
+						<h4>Late Night</h4>
+						<div class="easypiechart" id="easypiechart-red" data-percent="{{latenight}}" ><span class="percent">{{latenight}}°</span></div>
 					</div>
 				</div>
 			</div>
@@ -410,65 +410,9 @@
     <li>Longitude: <span id="lon">{{state.coord.lat}}</span></li>
 </ul>
 		<div class="row">
-			<!--/.col-->
-			<div class="col-md-6">
-				<div class="panel panel-default ">
-					<div class="panel-heading">
-						Timeline
-
-						<span class="pull-right clickable panel-toggle panel-button-tab-left"><em class="fa fa-toggle-up"></em></span></div>
-					<div class="panel-body timeline-container">
-						<ul class="timeline">
-							<li>
-								<div class="timeline-badge"><em class="glyphicon glyphicon-pushpin"></em></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">Lorem ipsum dolor sit amet</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="timeline-badge primary"><em class="glyphicon glyphicon-link"></em></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">Lorem ipsum dolor sit amet</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="timeline-badge"><em class="glyphicon glyphicon-camera"></em></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">Lorem ipsum dolor sit amet</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sodales nisl. Donec malesuada orci ornare risus finibus feugiat.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="timeline-badge"><em class="glyphicon glyphicon-paperclip"></em></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">Lorem ipsum dolor sit amet</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div><!--/.col-->
+<!--/.col-->
 			<div class="col-sm-12">
-				<p class="back-link">Powered by <a href="https://awaiskhan.com.pk">Awais khan</a></p>
+				<p class="back-link">Powered by <a href="https://awaiskhan.com.pk">Ghulam Yaseen</a></p>
 			</div>
 		</div><!--/.row-->
 	</div>	<!--/.main-->
@@ -481,6 +425,7 @@
 	<script src="{% static 'js/easypiechart-data.js' %}"></script>
 	<script src="{% static 'js/bootstrap-datepicker.js' %}"></script>
 	<script src="{% static 'js/custom.js' %}"></script>
+
 	<script>
 		window.onload = function () {
 	var chart1 = document.getElementById("line-chart").getContext("2d");
@@ -491,6 +436,21 @@
 	scaleFontColor: "#c5c7cc"
 	});
 };
+	</script>
+
+	<script>
+
+	function printPdf () {
+	            var pdfreport = document.getElementById('dvContainer').innerHTML;
+	            var printWindow = window.open('', '', 'height=400,width=800');
+	            printWindow.document.write('<html><head><title>DIV Contents</title>');
+	            printWindow.document.write('</head><body >');
+	            printWindow.document.write(pdfreport);
+	            printWindow.document.write('</body></html>');
+	            printWindow.document.close();
+	            printWindow.print();
+	        }
+
 	</script>
 
 </body>

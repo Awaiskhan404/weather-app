@@ -19,10 +19,16 @@ def index(request):
      elif tempreture in range(0,10):
          headline='Tempreture is ' +str(tempreture)+' Its very cold. Take care'
      print(headline)
+     noontemp=tempreture+3
+     eventemp=tempreture-5
+     latenight=tempreture-9
      return render(request,'api/index.html',{
           'tempreture':tempreture,
           'state':CurrentState,
-          'headline':headline
+          'headline':headline,
+          'noontemp':noontemp,
+          'eventemp':eventemp,
+          'latenight':latenight
      })
 def GetCurrentStateByCity(request):
      city = request.GET.get('city')
@@ -43,8 +49,14 @@ def GetCurrentStateByCity(request):
      elif tempreture in range(0,10):
           headline='Tempreture is ' +str(tempreture)+' Its very cold. Take care'
      print(headline)
+     noontemp=tempreture+3
+     eventemp=tempreture-5
+     latenight=tempreture-9
      return render(request,'api/index.html',{
           'tempreture':tempreture,
           'state':data,
-          'headline':headline
+          'headline':headline,
+          'noontemp':noontemp,
+          'eventemp':eventemp,
+          'latenight':latenight
      })
